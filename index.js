@@ -41,9 +41,9 @@ function converter() {
     resultadoDiv.innerHTML = resultado;
     resultadoDiv.className = '';
   
-    if (celsius < 10) {
+    if (celsius < 20) {
       resultadoDiv.classList.add('blue-bg');
-    } else if (celsius >= 10 && celsius <= 35) {
+    } else if (celsius >= 20 && celsius <= 35) {
       resultadoDiv.classList.add('yellow-bg');
     } else {
       resultadoDiv.classList.add('red-bg');
